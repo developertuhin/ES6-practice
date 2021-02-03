@@ -21,3 +21,14 @@ console.log(result2);
 const give5 = ()=> 5;
 const value = give5();
 console.log(value);
+
+// Multiline 
+
+const doMath = (x,y)=>{
+    const sum = x + y;
+    const sub = x - y;
+    const difference = sum * sub;
+    return difference; // For multiline function need to return again though arrow function
+}
+const mathValue = doMath(10,5);
+console.log(mathValue);
